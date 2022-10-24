@@ -9,7 +9,7 @@ resource of hunds-on for AWS Certified Solutions Architect - Associate
 
 1. Foundational
    1. 入門
-2. Associate
+2. **Associate**
    1. 1年間
    2. 種類
       1. **Solutions Architect**
