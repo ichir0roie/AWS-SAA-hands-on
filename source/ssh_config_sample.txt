@@ -1,0 +1,15 @@
+Host sample_1_public
+  HostName ec2-54-238-128-41.ap-northeast-1.compute.amazonaws.com
+  IdentityFile C:\Users\tihom\.ssh\sample_1_4.pem
+  User ec2-user
+
+Host sample_1_private
+  HostName ec2-35-76-113-129.ap-northeast-1.compute.amazonaws.com
+  IdentityFile C:\Users\tihom\.ssh\sample_1_private.pem
+  User ec2-user
+  ProxyCommand ssh -W %h:%p sample_1_public
+
+Host sample_1_pp_test
+  HostName ec2-35-76-113-129.ap-northeast-1.compute.amazonaws.com
+  IdentityFile C:\Users\tihom\.ssh\sample_1_private.pem
+  User ec2-user

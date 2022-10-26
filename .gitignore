@@ -3,3 +3,5 @@ source/output
 scripts/output
 secrets
 copies
+*.pem
+*.pdf
