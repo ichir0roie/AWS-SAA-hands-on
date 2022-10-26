@@ -9,6 +9,8 @@
       2. 公開サイト作成
    4. アカウントの用意
       1. <https://docs.aws.amazon.com/ja_jp/IAM/latest/UserGuide/id_users_create.html>
+   5. ハンズオン
+      1. <https://aws.amazon.com/jp/getting-started/hands-on/>
 
 
 
